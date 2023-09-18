@@ -42,10 +42,12 @@ export function App() {
 
           <Separator orientation='vertical' className='h-6'/>
           
-          <Button variant="outline">
-            <Github className='w-4 h-4 mr-2' />
+          <a href='https://github.com/leiaoliver?tab=overview&from=2023-09-01&to=2023-09-18' target="_blank">
+           <Button  variant="outline">
+              <Github className='w-4 h-4 mr-2' />
             Github
-          </Button>
+           </Button>
+          </a>
         </div>
       </div>
 
@@ -82,7 +84,7 @@ export function App() {
             </div>
 
             <div className='space-y-2'>
-              <Label>Model</Label>
+              <Label>Modelo</Label>
               <Select disabled defaultValue='gpt3.5'>
                 <SelectTrigger>
                   <SelectValue />
@@ -92,14 +94,14 @@ export function App() {
                 </SelectContent>
               </Select>
               <span className='block text-xs text-muted-foreground italic'>
-              Valores mais alto tendem a deixar o resultado mais criativo e com possíveis erros
+              Você poderá customizar essa opção em breve
               </span>
             </div>
 
             <Separator />
 
             <div className='space-y-4'>
-              <Label>Temperature</Label>
+              <Label>Temperatura</Label>
               <Slider
                 min={0}
                 max={1}
@@ -108,7 +110,8 @@ export function App() {
                 onValueChange={value => setTemperature(value[0])}
               />
               <span className='block text-xs text-muted-foreground italic leading-relaxed'>
-                The higher the temperature, the crazier the text.
+              valores mais altos tendem a deixar os resultados mais criativos
+                e com possíveis erros.
               </span>
             </div>
 
