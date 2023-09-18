@@ -38,19 +38,19 @@ Para executar a aplicação em sua máquina localmente, certifique-se de ter o `
 1. Clone o projeto:
 
 ```
-$ git clone https://github.com/madalena-rocha/upload-ai-api
+$ git clone https://github.com/madalena-rocha/upload-ai-api](https://github.com/leiaoliver/upload-ai.git)
 ```
 
 2. Acesse a pasta do projeto:
 
 ```
-$ cd upload-ai-api
+$ cd upload-ai
 ```
 
 3. Instale as dependências:
 
 ```
-$ npm install
+$ pnpm install
 ```
 
 4. Execute as migrações:
@@ -62,7 +62,7 @@ $ npx prisma migrate dev
 5. Inicie o servidor:
 
 ```
-$ npm run dev
+$ pnpm run dev
 ```
 
 ⚠️ **Importante**: Crie um arquivo .env de acordo com o arquivo .env.example. No campo DATABASE_URL, especifique a URL do banco de dados que deseja utilizar. Crie uma conta no site [OpenAI](https://openai.com/), obtenha sua chave da API e preencha o campo OPENAI_KEY com sua chave.
