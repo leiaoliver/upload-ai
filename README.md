@@ -33,12 +33,12 @@ Este projeto foi desenvolvido utilizando tecnologias como:
 
 <h2 id="usage">💡 Utilização</h2>
 
-Para executar a aplicação em sua máquina localmente, certifique-se de ter o `Node.js` e o `npm` instalados antes de prosseguir com as etapas abaixo:
+Para executar a aplicação em sua máquina localmente, certifique-se de ter o `Node.js` e o `pnpm` instalados antes de prosseguir com as etapas abaixo:
 
 1. Clone o projeto:
 
 ```
-$ git clone https://github.com/madalena-rocha/upload-ai-api](https://github.com/leiaoliver/upload-ai.git)
+$ git clone [https://github.com/leiaoliver/upload-ai.git](https://github.com/leiaoliver/upload-ai.git)
 ```
 
 2. Acesse a pasta do projeto:
