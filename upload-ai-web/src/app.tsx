@@ -56,13 +56,13 @@ export function App() {
           <div className='grid grid-rows-2 gap-4 flex-1'>
             <Textarea 
               className='resize-none p-4 leading-relaxed'  
-              placeholder='Add prompt to\ AI'
+              placeholder='Adicionar prompt IA...'
               value={input}
               onChange={handleInputChange}
             />
             <Textarea 
               className='resize-none p-4 leading-relaxed'  
-              placeholder='Result' 
+              placeholder='Resultado gerado pela IA...' 
               readOnly 
               value={completion}
             />
